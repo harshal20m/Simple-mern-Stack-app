@@ -1,0 +1,39 @@
+.container {
+	width: 400px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container div,
+.container form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container form * {
+	padding: 8px;
+	margin: 0px;
+	width: 100%;
+	width: 300px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.create {
+	background: rgb(183, 72, 72);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.create:hover {
+	background: rgb(158, 61, 61);
+}

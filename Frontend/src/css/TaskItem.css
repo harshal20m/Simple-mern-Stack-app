@@ -1,0 +1,37 @@
+.task-item {
+	background-color: #e8dddd;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	color: black;
+	width: 50%;
+	height: auto;
+	justify-content: space-between;
+}
+
+.task-item button {
+	background-color: #ff6347;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.task-item div p {
+	margin-bottom: 10px;
+	white-space: pre-wrap; /* Allows wrapping of long words */
+	word-wrap: break-word; /* Breaks long words and wraps text onto the next line */
+}
+
+.task-item button:hover {
+	background-color: #d43f1f;
+}
+.btn {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
